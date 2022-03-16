@@ -1,6 +1,12 @@
+import Axios from "./components/Axios";
+import MaterialUI from "./components/MaterialUI";
+
 function App() {
   return (
-    <h1>Material UI & Axios</h1>
+    <>
+      <MaterialUI />
+      <Axios />
+    </>
   );
 }
 
